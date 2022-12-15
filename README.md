@@ -20,3 +20,19 @@ This small examples shows how to:
 - perform symmetric encryption and decryption
 - reading and writing plaintext, ciphertext, and cleartext
 - storing symmetric keys securely with their associated ciphertext
+
+---
+
+## Virtual Environment Setup:
+
+```
+python3 -m venv venv
+```
+
+```
+source venv/bin/activate
+```
+
+```
+pip3 install cryptography
+```
