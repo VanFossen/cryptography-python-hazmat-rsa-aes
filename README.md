@@ -23,6 +23,22 @@ This small examples shows how to:
 
 ---
 
+## Project Structure
+
+```
+cryptography-python-hazmat-rsa-aes
+├── files
+│   ├── plaintext
+│   ├── ciphertext
+│   └── cleartext
+├── keys
+│   ├── private.pem
+│   └── public.pem
+└── program.py
+```
+
+---
+
 ## Virtual Environment Setup:
 
 ```
