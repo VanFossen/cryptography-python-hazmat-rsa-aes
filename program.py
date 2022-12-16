@@ -19,6 +19,14 @@ def main():
     # KEY GENERATION AND SETUP
     # ========================
 
+    # generate 'files' directory if it does not exist
+    if not os.path.exists("files"):
+        os.makedirs("files")
+
+    # generate 'keys' directory if it does not exist
+    if not os.path.exists("keys"):
+        os.makedirs("keys")
+
     # write plaintext file
     with open("files/plaintext", "wb") as plaintext:
         plaintext.write(b"Hello, world!")
